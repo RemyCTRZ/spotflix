@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    box-shadow: 0 0 5px #222;
+}
+
+.logo {
+    color: #008a99;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #008a99;
+}
+
+.user {
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: #111;
+    padding: .5rem;
+}

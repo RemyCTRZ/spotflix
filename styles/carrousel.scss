@@ -1,0 +1,36 @@
+.carrousel {
+    margin-top: .7rem;
+    border-bottom-width: 4px;
+    border-bottom-color: #008a99;
+    border-bottom: solid;
+    padding-bottom: .5rem;
+}
+
+.popular_movie {
+    height: 10rem;
+    width: 10rem;
+    border: 3px solid #222;
+    border-radius: 5px;
+    margin-right: .5rem;
+}
+
+.popular_movie_img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.black_backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00000098;
+}
+
+.popular_movie_name {
+    margin: .2rem;
+    margin-top: auto;
+    color: #fff;
+}
