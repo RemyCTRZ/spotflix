@@ -54,7 +54,7 @@ export default function Movies() {
         axios.get(`https://api.themoviedb.org/3/search/person?query=${searchName}&api_key=${API_KEY}&language=fr-FR&page=1`)
             .then(response => { 
                 setAuthorName(response.data.results[0].name)
-                if (response.data.results[0].known_for.length > 0) console.log(response.data.results[0].known_for)
+                if (response.data.results[0].known_for.length > 0) setAuthorMovies(response.data.results[0].known_for)
             })
           }
 
